@@ -60,7 +60,17 @@ const ProjectsSection = () => {
       github: "#",
       demo: "#",
       icon: Database
-    }
+    },
+    {
+       title: "RBK Procurement Prediction Pipeline",
+       description: "End-to-end ML pipeline focused on Andhra Pradesh RBKs. Predicts procurement amount (₹) based on District, Mandal, Season, Quantity, and Farmers. Includes real-time predictions, choropleth maps, SHAP explainability, downloadable reports, and automated retraining.",
+       image: "/api/placeholder/400/300", 
+      tags: ["Machine Learning", "XGBoost", "LightGBM", "Flask", "Node.js", "Firebase", "Netlify", "Render", "MLOps"],
+      github: "https://github.com/basavayya369/rbk_frontend", 
+      demo: "https://rbkprediction1.netlify.app/", 
+      icon: Database
+}
+
   ];
 
   return (
